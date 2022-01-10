@@ -1,0 +1,2 @@
+del palin():
+del sym():

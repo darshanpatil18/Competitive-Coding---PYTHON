@@ -1,0 +1,25 @@
+day=input()
+hour=int(input())
+min=int(input())
+num=hour*60+min
+if(num>=390):
+	if(day=="Monday"):
+		print("Tuesday")
+	elif(day=="Tuesday"):
+		print("Wednesday")
+	elif(day=="Wednesday"):
+		print("Thursday")
+	elif(day=="Thursday"):
+		print("Friday")	
+	elif(day=="Friday"):
+		print("Saturday")
+	elif(day=="Satuday"):
+		print("Sunday")
+	else:
+		print("Monday")
+	print(((num+330)//60)-24)
+	print((num+330)%60)	
+else:
+	print(day)
+	print((num+330)//60)
+	print((num+330)%60)	
